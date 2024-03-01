@@ -1,17 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.form {
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
     font-family: sans-serif;
 }
-.container{
-    max-width: 960px;
-    margin: 0 auto;
-    width: 100%;
-    padding-top: 16px;
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
-:root{
-    --corPrincipal: #95afc0;
-    --corSecundaria: #eb4d4b;
-    --corTercearia: #111;
+.input2{
+    margin-left: 8px;
+}
+
+button {
+    background-color: #3a82cf;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+p {
+    font-size: 24px;
 }
